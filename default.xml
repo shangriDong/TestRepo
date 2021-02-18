@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <manifest>
-    <remote name="android-vvmusic" fetch=".." review="http://172.16.1.26:8080/admin/repos/" />
-    <default remote="origin" revision="master"/>
-    <project path="all-app" name="vvmusic-android-app"/>
-    <project path="/all-app/aaa/" name="git-test"/>
+    <remote name="vvmusic-android" fetch=".." review="http://172.16.1.26:8080/" />
+    <default remote="vvmusic-android" revision="master"/>
+
+
+    <project path="all-app/git-test" name="git-test" revision="master"/>
+    <project path="all-app" name="vvmusic-android-app" revision="master"/>
 </manifest>
