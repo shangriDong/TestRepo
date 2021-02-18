@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8">
+
+<mainfest>
+    <remote name="android-vvmusic" fetch="http://172.16.1.26:8080/" />
+    <default remote="origin" revision="master"/>
+    <project path="all-app" name="vvmusic-android-app"/>
+    <project path="/all-app/aaa/" name="git-test"/>
+</mainfest>
