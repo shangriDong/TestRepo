@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <manifest>
-    <remote name="vvmusic-android" fetch=".." review="http://172.16.1.26:8080/" />
+    <remote name="vvmusic-android" fetch="ssh://dongqiushan@172.16.1.26:29418/" review="ssh://dongqiushan@172.16.1.26:29418/" />
     <default remote="vvmusic-android" revision="master"/>
 
 
